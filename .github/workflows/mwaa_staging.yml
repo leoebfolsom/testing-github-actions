@@ -17,9 +17,9 @@ jobs:
     steps:
 
 
-    - uses: actions/checkout@main
-      with:
-        fetch-depth: 0
+#    - uses: actions/checkout@main
+#      with:
+#        fetch-depth: 0
 
     - name: Identify diffed SQL files
       # - git diff main --name-only
