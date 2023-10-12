@@ -21,12 +21,12 @@ jobs:
 #      with:
 #        fetch-depth: 0
 
-    - name: Identify diffed SQL files
+   # - name: Identify diffed SQL files
       # - git diff main --name-only
       # - change spaces into new lines
       # - remove lines not containing .sql 
       # - remove dags/ prefix and .sql suffix
-      run: echo "forestfires\nbears\nsquirrels"  > ./git-diff.txt
+   #   run: echo "forestfires\nbears\nsquirrels"  > ./git-diff.txt
 
     - name: Test output
       run: echo "$(cat ./git-diff.txt)"
